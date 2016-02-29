@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>jsprit</groupId>
-  <artifactId>jsprit-examples</artifactId>
+  <artifactId>jsprit-core</artifactId>
   <version>1.6.3-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20160229.154059</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20160229.163029</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20160229154059</lastUpdated>
+    <lastUpdated>20160229163029</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.6.3-20160229.154059-1</value>
-        <updated>20160229154059</updated>
+        <value>1.6.3-20160229.163029-2</value>
+        <updated>20160229163029</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.6.3-20160229.154059-1</value>
-        <updated>20160229154059</updated>
+        <value>1.6.3-20160229.163029-2</value>
+        <updated>20160229163029</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.6.3-20160229.154059-1</value>
-        <updated>20160229154059</updated>
+        <value>1.6.3-20160229.163029-2</value>
+        <updated>20160229163029</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
