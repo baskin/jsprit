@@ -6,10 +6,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jsprit-instances</artifactId>
-    <name>jsprit-instances</name>
-
-    <packaging>jar</packaging>
+    <artifactId>jsprit-examples</artifactId>
 
     <build>
         <pluginManagement>
@@ -42,12 +39,21 @@
         </pluginManagement>
     </build>
 
-
-
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
+            <artifactId>jsprit-instances</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
             <artifactId>jsprit-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jsprit-analysis</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
