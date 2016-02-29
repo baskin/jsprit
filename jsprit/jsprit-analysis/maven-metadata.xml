@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jsprit</groupId>
+  <artifactId>jsprit-analysis</artifactId>
+  <versioning>
+    <versions>
+      <version>1.6.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160229175529</lastUpdated>
+  </versioning>
+</metadata>
