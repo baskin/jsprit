@@ -5,7 +5,10 @@
         <version>1.6.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>jsprit-analysis</artifactId>
+
+    <artifactId>jsprit-instances</artifactId>
+    <name>jsprit-instances</name>
+
     <packaging>jar</packaging>
 
     <build>
@@ -39,36 +42,14 @@
         </pluginManagement>
     </build>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.0.19</version>
-            <scope>compile</scope>
-        </dependency>
 
+
+    <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>jsprit-core</artifactId>
             <version>${project.version}</version>
-            <type>jar</type>
-            <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <artifactId>gs-core</artifactId>
-            <groupId>org.graphstream</groupId>
-            <version>1.3</version>
-            <optional>false</optional>
-        </dependency>
-
-        <dependency>
-            <artifactId>gs-ui</artifactId>
-            <groupId>org.graphstream</groupId>
-            <version>1.3</version>
-            <optional>false</optional>
-        </dependency>
-
     </dependencies>
 
 </project>
